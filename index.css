@@ -1,0 +1,72 @@
+html{
+    margin: 0px;
+}
+
+footer{
+    margin-top: 1000px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222222;
+}
+h1{
+    margin: 0;
+    margin-bottom: 1%;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    
+}
+.wrapper {
+    border-radius: 3px;
+    margin-left: 15%;
+    margin-right: 10%;
+    width: 70%;
+    
+    overflow: hidden; /* add this to contain floated children */
+}
+.spacer{
+    padding: 15px;
+}
+.AMain{
+    align-content: center;
+    padding: 15px;
+    width: 45%;
+    float:left; /* add this */
+    background-color: black;
+    color: white;
+    
+    overflow: hidden; /* add this to contain floated children */
+}
+
+.BMain{
+    padding: 15px;
+    width: 45%;
+    background-color: black;
+    color: white;
+    float: right; /* add this */
+    overflow: hidden; /* add this to contain floated children */
+ 
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #689f39;;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background: #44803F;
+}
+.navbar li{
+    float: left;
+}
