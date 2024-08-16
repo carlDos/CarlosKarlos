@@ -70,3 +70,8 @@ h1{
 .navbar li{
     float: left;
 }
+
+.giscusclass{
+    margin: 10%;
+    background-color: green;
+}
